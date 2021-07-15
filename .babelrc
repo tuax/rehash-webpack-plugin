@@ -1,0 +1,15 @@
+{
+    "presets": [
+        ["@babel/preset-env", {
+            "targets": {
+                "node": "current"
+            }
+        }]
+    ],
+    "sourceMaps": true,
+    "retainLines": true,
+    "ignore": [
+        "node_modules",
+        "src/cli/templates"
+    ]
+}
