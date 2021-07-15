@@ -16,7 +16,7 @@
     "publishConfig": {
         "access": "public"
     },
-    "repository": "https://github.com/tuateam/tua.git",
+    "repository": "https://github.com/tuateam/rehash-webpack-plugin.git",
     "keywords": [
         "webpack",
         "webpack5",
