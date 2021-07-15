@@ -1,12 +1,8 @@
 <div align="center">
-  <span style = "font-size:50px; display:inline-block; position:relative; top:-80px;">REHASH</span>
   <a style="display: inline-block;" href="https://github.com/webpack/webpack">
     <img width="200" height="200"
       src="https://webpack.js.org/assets/icon-square-big.svg">
   </a>
-  <div style="margin-top: -60px;">
-    <img width="100" height="100" title="Webpack Plugin" src="http://michael-ciniawsky.github.io/postcss-load-plugins/logo.svg">
-  </div>
   <h1>REHASH Webpack Plugin</h1>
   <p>Real contenthash for emitted assets in webpack5. </p>
 </div>
