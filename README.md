@@ -1,5 +1,5 @@
 <div align="center">
-  <span style = "font-size:50px; display:inline-block; position:relative; top:-80px;">
+  <span style = "font-size:50px; display:inline-block; position:relative; top:-80px;">REHASH</span>
   <a style="display: inline-block;" href="https://github.com/webpack/webpack">
     <img width="200" height="200"
       src="https://webpack.js.org/assets/icon-square-big.svg">
@@ -33,7 +33,7 @@ The plugin will calculate the hash value based on the final webpack emitted asse
 Check and modify your webpack configuration files as appropriate
 Depending on whether the production environment exports sourcemap files or not, there are two recommended ways to set this up.
 
-#### 2.1 devtool is set to none of the `source-map`, `nosources-source-map`, `hidden-nosources-source-map`, `hidden-source-map`
+#### devtool is set to none of the `source-map`, `nosources-source-map`, `hidden-nosources-source-map`, `hidden-source-map`
 
 for main configurations,
 
@@ -63,7 +63,7 @@ module.exports = {
 ```
 > Note: ** All the files will be rename with the new hash. **
 
-#### 2.2 devtool is set to one of the `source-map`, `nosources-source-map`, `hidden-nosources-source-map`, `hidden-source-map`
+#### devtool is set to one of the `source-map`, `nosources-source-map`, `hidden-nosources-source-map`, `hidden-source-map`
 
 In this case, the production environment generates a sourcemap file for the JS/CSS files, and `output` needs to be configured with the following `filename` and `chunkFilename`
 ```js
